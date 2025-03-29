@@ -1,0 +1,15 @@
+Month,others,MRSA,VRSA,Wild,Total
+January,65,56,3,445,569
+February,33,64,1,427,525
+March,50,53,3,448,554
+April,37,58,3,412,510
+May,50,65,2,371,488
+June,54,53,0,344,451
+July,78,58,0,464,600
+August,62,71,0,405,538
+September,58,77,5,397,537
+October,64,65,0,405,534
+November,34,73,0,348,455
+December,40,77,1,343,461
+Total,625,770,18,4809,6222
+Prevalence %,10,12.3,0.3,77.3,100
