@@ -1,0 +1,88 @@
+
+[     UTC     ] Logs for antibiotic-resistance-dashboard.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[14:03:19] 🖥 Provisioning machine...
+[14:03:19] 🎛 Preparing system...
+[14:03:19] ⛓ Spinning up manager process...
+[14:03:21] 🚀 Starting up repository: 'antibiotic-resistance-dashboard', branch: 'main', main module: 'app.py'
+[14:03:21] 🐙 Cloning repository...
+[14:03:22] 🐙 Cloning into '/mount/src/antibiotic-resistance-dashboard'...
+
+[14:03:22] 🐙 Cloned repository!
+[14:03:22] 🐙 Pulling code changes from Github...
+[14:03:22] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+error: Couldn't parse requirement in `requirements.txt` at position 60
+  Caused by: no such comparison operator "=", must be one of ~= == != <= >= < > ===
+streamlit-aggrid=1.1.2
+                ^^^^^^
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.12.9 environment at /home/adminuser/venv
+Resolved [2025-03-29 14:03:23.311215] 4 packages[2025-03-29 14:03:23.311446]  [2025-03-29 14:03:23.311687] in 145ms[2025-03-29 14:03:23.311897] 
+Prepared 4 packages in 143ms
+Installed 4 packages in 17ms
+ + markdown-it-py==[2025-03-29 14:03:23.472528] 3.0.0
+ + mdurl==0.1.2
+ + pygments==2.19.1
+ + rich==13.9.4
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+ERROR: Invalid requirement: 'streamlit-aggrid=1.1.2' (from line 5 of /mount/src/antibiotic-resistance-dashboard/requirements.txt)
+Hint: = is not a valid operator. Did you mean == ?
+
+[notice] A new release of pip is available: 24.0 -> 25.0.1
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-13.9.4-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-13.9.4-py3-none-any.whl (242 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 242.4/242.4 kB 11.8 MB/s eta 0:00:00[2025-03-29 14:03:26.871486] 
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 118.7 MB/s eta 0:00:00[2025-03-29 14:03:26.887029] 
+Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 78.3 MB/s eta 0:00:00[2025-03-29 14:03:26.921074] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.1
+    Uninstalling Pygments-2.19.1:
+      Successfully uninstalled Pygments-2.19.1
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 3.0.0
+    Uninstalling markdown-it-py-3.0.0:
+      Successfully uninstalled markdown-it-py-3.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 13.9.4
+    Uninstalling rich-13.9.4:
+      Successfully uninstalled rich-13.9.4
+Successfully installed markdown-it-py-3.0.0 mdurl-0.1.2 pygments-2.19.1 rich-13.9.4
+
+[notice] A new release of pip is available: 24.0 -> 25.0.1
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[14:03:28] ❗️ installer returned a non-zero exit code
+[14:03:28] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
