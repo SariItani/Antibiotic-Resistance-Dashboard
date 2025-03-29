@@ -5,6 +5,13 @@ import plotly.express as px
 import plotly.graph_objects as go
 from st_aggrid import AgGrid, GridOptionsBuilder
 
+st.set_page_config(
+    page_title="Antibiotic Resistance Dashboard",
+    page_icon="🦠",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 @st.cache_data
 def load_and_process_data():
     # Load CSV data
@@ -35,10 +42,6 @@ def load_and_process_data():
     return df1, df2, df3
 
 df1, df2, df3 = load_and_process_data()
-
-# App layout
-st.title("Antibiotic Resistance Dashboard")
-st.header("Comprehensive Resistance Analysis")
 
 # Create tabs with new structure
 tab_overview, tab_metrics, tab_trends, tab_phenotypes, tab_clinical = st.tabs([
